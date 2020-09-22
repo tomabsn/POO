@@ -2,8 +2,21 @@
 //
 
 #include <iostream>
+#include <algorithm>
+#include <vector>
+using namespace std;
 
-int main()
-{
-    std::cout << "Hello World!\n";
+void myfunction(int i) {
+    cout << ' ' << i;
 }
+
+/*int main()
+{
+    vector<int> vect(4, 100);
+    vector<int> vect1(vect.begin(), vect.end()); //Copie d'un vecteur 
+    for_each(vect.begin(), vect.end(), myfunction);
+    cout << "\n";
+    for_each(vect1.begin(), vect1.end(), myfunction);
+    cout << "\n";
+}
+*/
